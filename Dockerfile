@@ -14,6 +14,7 @@ RUN apt-get install -y openjdk-21-jdk-headless
 RUN apt-get install python3 -y
 RUN apt-get install python3-pip -y
 RUN apt-get install vim -y
+RUN apt-get install git -y
 RUN apt-get install -y python3-matplotlib
 RUN apt-get install -y python3-numpy
 RUN apt-get install -y python3-prettytable
